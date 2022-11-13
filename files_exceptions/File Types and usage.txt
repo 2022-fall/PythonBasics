@@ -1,0 +1,30 @@
+Files: 
+CRUD - create(write to a file), read (get the info from the file), update (modify the data in it), delete
+
+Data handling file type:
+	txt
+	yaml/yml
+	csv - comma separated values
+	xml
+	json
+
+simple info file:
+documenting code execution
+	log
+	txt
+
+Files in codig: 
+	sql, py, java, html, rb, sh, bash, bat (powershell in windows, batch script)
+
+application configuration file:
+	xml
+	config
+	json
+
+user facing document:
+	pdf
+	docx
+	xlsx
+	txt
+
+

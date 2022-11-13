@@ -1,0 +1,70 @@
+# login_page.py
+
+1. elements on the page (variables) - attributes
+
+username = ''
+password = ''
+login = ''
+cancel = ''
+error_message = ''
+
+
+2. actions can be done on the page (functions) - behaviour
+
+def enter_username(username):
+	'''enters the username in the username field'''
+	pass
+
+def clear_username():
+	'''removes all character from username field'''
+	pass
+
+def enter_password(password):
+	''' enters the password in the password field'''
+	pass
+
+def click_login():
+	'''clicks the login button'''
+	pass
+
+def click_cancel():
+	'''clicks the cancel button'''
+	pass
+
+def get_error_msg():
+	'''returns the text of error message'''
+	msg = ''  # code to get the text from the webpage for this element
+	return msg
+
+
+# login_scenarios.py
+
+# negative test: invalid username
+open browser
+go to website
+go to loginpage
+enter_username('spiderman')
+enter_password('012345')
+click_login()
+assert 'Invalid email address.' == get_error_msg()
+
+# negative test: invalid password
+open browser
+go to website
+go to loginpage
+enter_username('spiderman')
+enter_password('012345')
+click_login()
+assert 'Invalid email password.' == get_error_msg()
+
+# positive test: valid username and password
+open browser
+go to website
+go to loginpage
+enter_username('spiderman')
+enter_password('012345')
+click_login()
+verify it opens welcome page
+
+
+
