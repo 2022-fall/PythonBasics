@@ -13,3 +13,4 @@ First head to Selenium book
 playstation 5
 Learning Python book
 First head to Selenium book
+more git crazy commands
