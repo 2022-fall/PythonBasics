@@ -2,3 +2,4 @@
 __pycache__/
 data/credentials.yml
 data/mycredentials.yml
+logs/
