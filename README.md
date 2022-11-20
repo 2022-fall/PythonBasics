@@ -39,5 +39,4 @@ some text after grey box
 ## useful links:
 - [click here for more on md documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-
-
+- links to the book: 
